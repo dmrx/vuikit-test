@@ -8,7 +8,9 @@
       <li><a href="https://twitter.com/vuikit" target="_blank">Twitter</a></li>
     </ul>
     
-    <vk-button>Hello from Vuikit button!</vk-button>
+    <vk-button  color="primary">
+    Hello from Vuikit button!
+    </vk-button>
   
   <input id="target"
   type="text"
@@ -45,6 +47,52 @@
  </ul>
   
 </vk-dropdown>
+ <ul>
+  <li>one</li>
+  <li>two</li>
+  <li>three</li>
+ </ul>
+  <ul>
+  <li>one</li>
+  <li>two</li>
+  <li>three</li>
+ </ul>
+  <ul>
+  <li>one</li>
+  <li>two</li>
+  <li>three</li>
+ </ul>
+  <ul>
+  <li>one</li>
+  <li>two</li>
+  <li>three</li>
+ </ul>
+  <ul>
+  <li>one</li>
+  <li>two</li>
+  <li>three</li>
+ </ul>
+  <ul>
+  <li>one</li>
+  <li>two</li>
+  <li>three</li>
+ </ul>
+  <ul>
+  <li>one</li>
+  <li>two</li>
+  <li>three</li>
+ </ul>
+  <ul>
+  <li>one</li>
+  <li>two</li>
+  <li>three</li>
+ </ul>
+  <ul>
+  <li>one</li>
+  <li>two</li>
+  <li>three</li>
+ </ul>
+ 
   </div>
   
 </template>
@@ -57,6 +105,8 @@ export default {
       msg: 'Welcome to Your Vue Vuikit App',
       showDate: false,
       showToggle: false,
+      test: {attachment: 'top left',
+  targetAttachment: 'bottom left'},
     }
   }
 }
